@@ -1,0 +1,91 @@
+.container {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.image {
+    height: 334px;
+    width: 1022px;
+    --fieldset-height: 355px;
+    --min-table-cell-width: 2.5rem;
+    background-image: url('/assets/imagens/template.jpg');
+}
+
+.campo {
+    font-family: 'Soleto-Bold';
+    color: #58595b;
+    font-size: 9pt ;
+    margin-bottom: 7px;
+    margin-top: 40px;
+}
+
+
+.campo-nome {
+    font-family: 'Soleto-Bold';
+    font-size: 20pt;
+    color: #58595b;
+
+    position: absolute;
+    top: 220px;
+    left: 572px;
+
+  /*
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 10px;
+    */
+}
+
+
+.campo-funcao {
+    font-family:  'Soleto-Medium';
+    color: #58595b;
+    width: 500px;
+
+    position: absolute;
+    top: 290px;
+    left: 572px;
+
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    font-size: 16.5pt;
+
+    /*
+    margin-top: 5px;
+    margin-left: 50px;
+    */
+}
+
+
+.campo-telefone1 {
+    font-family:  'Soleto-Medium';
+    font-size: 13pt;
+    color: #747485;
+    position: absolute;
+    top: 410px;
+    left: 572px;
+}
+
+.campo-email {
+    font-family:  'Soleto-Medium';
+    font-size: 13pt;
+    color: #747485;
+    position: absolute;
+    top: 430px;
+    left: 572px;
+
+}
+
+
+@font-face {
+	font-family: Soleto-Bold;
+	src: url('src/assets/fonts/Soleto-Bold.ttf');
+}
+
+@font-face {
+	font-family: Soleto-Medium;
+	src: url('src/assets/fonts/Soleto-Medium.ttf');
+}

@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Soleto-Bold';
+    color: #58595b;
+    background-color: rgb(243, 243, 243);
+}
+
+.content{
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    height: 400px;
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+form *{
+    width: 70%;
+}
+
+.preview{
+    height: 300px;
+    width: 1000px;
+    margin: 2;
+
+    display: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+
+    background-image: url(./assets/imagens/template.jpg);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10ch;
+}
+
+.preview__name{
+    height: 50%;
+    width: 100%;
+
+    padding-top: 50px;
+    text-align: start;
+    margin: 2;
+}
+
+.download{
+    display: none;
+}
+
+.p-fluid{
+
+    height: 400px;
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+@font-face {
+	font-family: Soleto-Bold;
+	src: url('src/assets/fonts/Soleto-Bold.ttf');
+}
